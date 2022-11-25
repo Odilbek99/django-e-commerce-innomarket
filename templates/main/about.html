@@ -1,0 +1,485 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<main>
+    <!-- page-banner-area-start -->
+    <div class="page-banner-area page-banner-height" data-background="{% static 'assets/img/banner/page-banner-1.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="page-banner-content text-center">
+                        <h3>About Us</h3>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these <br> sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <div class="page-bottom-btn mt-55">
+                            <a href="{% url 'product' %}" class="st-btn-4">Discover now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page-banner-area-end -->
+
+    <!-- about-area-start -->
+    <div class="about-area pt-80 pb-80" data-background="{% static 'assets/img/bg/about-bg.png' %}">
+        <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-6 col-lg-6">
+                   <div class="about-content">
+                       <span>ABOUT OUR ONLINE STORE</span>
+                       <h4>Hello,</h4>
+                       <h5 class="banner-t mb-30">With 10+ Years Of Experience</h5>
+                       <p class="about-text">Over 10 years InnoMarket helping studeents and residence reach their <br> financial and branding goals.</p>
+                       <p>This website helps to customers to buy Innopolis products. The customers can use coupons and website also shows to customers all discounts for products.  </p>
+                   </div>
+               </div>
+               <div class="col-xl-6 col-lg-6">
+                    <div class="about-image w-img">
+                        <img src="{% static 'assets/img/about/about-b.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about-area-end -->
+
+    <!-- services-area-start -->
+    <div class="services-area pt-70 light-bg-s pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="abs-section-title text-center">
+                        <span>HOW IT WORKS</span>
+                        <h4>Online Shop Innomarket</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-40">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="services-item mb-30">
+                        <div class="services-icon mb-25">
+                            <i class="fal fa-share-square"></i>
+                        </div>
+                        <h6>User Verify Details</h6>
+                        <p>To order the product, the customer should be signed up. Please, sign up first and enjoy your shopping. If you already have an account or if you want to sign up, go to "My Profile" which you canfind on the top right of this page</p>
+                        <div class="s-count-number">
+                            <span>01</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="services-item mb-30">
+                        <div class="services-icon mb-25">
+                            <i class="fal fa-shopping-cart"></i>
+                        </div>
+                        <h6>Start Shopping</h6>
+                        <p>To choose the product go to the "Products" page where you can find all products. If you want find products with discounted prices go to the main page. To add product to shopping cart press "Add to Cart" button. </p>
+                        <div class="s-count-number">
+                            <span>02</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="services-item mb-30">
+                        <div class="services-icon mb-25">
+                            <i class="fal fa-question"></i>
+                        </div>
+                        <h6>Any Questions?</h6>
+                        <p>If you have any question about website or product you can find all contacts in "Contacts" page. There is also available phone number on the bottom-right of this page. Feel free to ask any question. You can use our service 24/7.</p>
+                        <div class="s-count-number">
+                            <span>03</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services-area-end -->
+
+    <!-- technolgy-index-start -->
+    <div class="technolgy-index mt-70 mb-10">
+        <div class="container">
+            <div class="row mb-15">
+                <div class="col-xl-12">
+                    <div class="abs-section-title text-center">
+                        <span>TECHNOLOGY INDEX</span>
+                        <h4>Statistics of Website</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="main-abs mb-30">
+                        <div class="ab-counter-image w-img mb-40">
+                            <img src="{% static 'assets/img/about/ab-01.jpg' %}" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="ab-counter-item mb-30">
+                                    <div class="ab-counter mb-20">
+                                        <div class="counter-icon mr-10">
+                                            <img src="{% static 'assets/img/about/c-icon-01.png' %}" alt="">
+                                        </div>
+                                        <div class="counter_info">
+                                            <span class="counter">450</span>
+                                           <p>+</p>
+                                       </div>
+                                    </div>
+                                    <h5>Active Clients</h5>
+                                    <p>Each Day number of clients is increasing.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="ab-counter-item mb-30">
+                                    <div class="ab-counter mb-20">
+                                        <div class="counter-icon mr-10">
+                                            <img src="{% static 'assets/img/about/c-icon-01.png' %}" alt="">
+                                        </div>
+                                        <div class="counter_info">
+                                            <span class="counter">6500</span>
+                                           <p>+</p>
+                                       </div>
+                                    </div>
+                                    <h5>Population</h5>
+                                    <p>Current population of Innopolis including number of student in 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="main-abs mb-30">
+                        <div class="ab-counter-image w-img mb-40">
+                            <img src="{% static 'assets/img/about/ab-02.jpg' %}" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="ab-counter-item mb-30">
+                                    <div class="ab-counter mb-20">
+                                        <div class="counter-icon mr-10">
+                                            <img src="{% static 'assets/img/about/c-icon-01.png' %}" alt="">
+                                        </div>
+                                        <div class="counter_info">
+                                            <span class="counter">15</span>
+                                           <p>+</p>
+                                       </div>
+                                    </div>
+                                    <h5>Partners</h5>
+                                    <p>With 10 years of experience in market we have more than 15 top partners.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="ab-counter-item mb-30">
+                                    <div class="ab-counter mb-20">
+                                        <div class="counter-icon mr-10">
+                                            <img src="{% static 'assets/img/about/c-icon-01.png' %}" alt="">
+                                        </div>
+                                        <div class="counter_info">
+                                            <span class="counter">269</span>
+                                           <p>+</p>
+                                       </div>
+                                    </div>
+                                    <h5>Users Online</h5>
+                                    <p>Each Day number of users is increasing. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- technolgy-index-end -->
+
+    <!-- team-area-start -->
+    <div class="team-area light-bg-s pt-70 pb-40">
+        <div class="container">
+            <div class="row mb-35">
+                <div class="col-xl-12">
+                    <div class="abs-section-title text-center">
+                        <span>THE TEAM</span>
+                        <h4>Meet Our Team</h4>
+                        <!-- <p>The perfect way to enjoy brewing tea on low hanging fruit to identify. Duis autem vel eum iriure dolor in hendrerit <br> in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-team text-center mb-30">
+                        <div class="team-image mb-35 w-img">
+                            <div class="inner-timg">
+                                <a href="{% url 'about' %}">
+                                    <img src="{% static 'assets/img/team/person-1.jpg' %}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tauthor-degination mb-15">
+                            <h5><a href="{% url 'about' %}">Odilbek Umaraliev</a></h5>
+                            <span>Developer</span>
+                        </div>
+                        <div class="team-social">
+                            <a href="https://www.instagram.com/odilee7/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://telegram.me/odil_lee"><i class="fab fa-telegram"></i></a>
+                            <a href="https://wa.me/996550066360"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://github.com/Odilbek99"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-team text-center mb-30">
+                        <div class="team-image mb-35 w-img">
+                            <div class="inner-timg">
+                                <a href="{% url 'about' %}">
+                                    <img src="{% static 'assets/img/team/person-2.png' %}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tauthor-degination mb-15">
+                            <h5><a href="{% url 'about' %}">Andrey Blakunov </a></h5>
+                            <span>InnoMarket Manager</span>
+                        </div>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://telegram.me/andrejsblakunovs"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-team text-center mb-30">
+                        <div class="team-image mb-35 w-img">
+                            <div class="inner-timg">
+                                <a href="{% url 'about' %}">
+                                    <img src="{% static 'assets/img/team/rover.png' %}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tauthor-degination mb-15">
+                            <h5><a href="{% url 'about' %}">Yandex Rover</a></h5>
+                            <span>Delivery</span>
+                        </div>
+                        <div class="team-social">
+                            <a href="https://www.instagram.com/yandex.delivery/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://telegram.me/andrejsblakunovs"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team-area-end -->
+
+    <!-- location-area-start -->
+    <div class="location-area pt-70 pb-25">
+        <div class="container">
+            <div class="row mb-25">
+                <div class="col-xl-12">
+                    <div class="abs-section-title text-center">
+                        <span>LOCATION STORE</span>
+                        <h4>Where We Are</h4>
+                        <!-- <p></p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="location-item mb-30">
+                        <div class="location-image w-img mb-20">
+                            <img src="{% static 'assets/img/location/location-inno.jpg' %}" alt="">
+                        </div>
+                        <h6>Innopolis, Tatarstan</h6>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Find us</span>
+                                <p>Innopolis University, Innopolis, Tatarstan  </p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-phone-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Call us</span>
+                                <p><a href="tel:+8804568">+7 (843) 203-92-53</a></p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Mail us</span>
+                                <p><a href="https://themepure.net/cdn-cgi/l/email-protection#7704031805123714181a0716190e5914181a"><span class="__cf_email__" data-cfemail="8af9fee5f8efcae9e5e7faebe4f3a4e9e5e7">[email&#160;protected]</span></a></p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="location-item mb-30">
+                        <div class="location-image w-img mb-20">
+                            <img src="{% static 'assets/img/location/location-kazan.jpeg' %}" alt="">
+                        </div>
+                        <h6>Kazan, Tatarstan</h6>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Find us</span>
+                                <p>120 Dekabristov Street, Kazan, Tatarstan </p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-phone-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Call us</span>
+                                <p><a href="tel:+8804568">+7 (843) 203-92-53</a></p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Mail us</span>
+                                <p><a href="https://themepure.net/cdn-cgi/l/email-protection#f083849f8295b0939f9d80919e89de939f9d"><span class="__cf_email__" data-cfemail="98ebecf7eafdd8fbf7f5e8f9f6e1b6fbf7f5">[email&#160;protected]</span></a></p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="location-item mb-30">
+                        <div class="location-image w-img mb-20">
+                            <img src="{% static 'assets/img/location/location-uslon.jpg' %}" alt="">
+                        </div>
+                        <h6>Verkhniy Uslon, Tatarstan</h6>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Find us</span>
+                                <p>120 Pushlina Street, Verkhniy Uslon, Tatarstan</p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-phone-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Call us</span>
+                                <p><a href="tel:+8804568">+7 (843) 203-92-53</a></p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Mail us</span>
+                                <p><a href="https://themepure.net/cdn-cgi/l/email-protection#c4b7b0abb6a184a7aba9b4a5aabdeaa7aba9"><span class="__cf_email__" data-cfemail="6417100b160124070b0914050a1d4a070b09">[email&#160;protected]</span></a></p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="location-item mb-30">
+                        <div class="location-image w-img mb-20">
+                            <img src="{% static 'assets/img/location/location-chelny.jpg' %}" alt="">
+                        </div>
+                        <h6>Naberezhniye Chelny, Tatarstan</h6>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Find us</span>
+                                <p>86 Sovetskaya Street, Naberezhniye Chelny, Tatarstan</p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc sm-item-border mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-phone-alt"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Call us</span>
+                                <p><a href="tel:+8804568">+7 (843) 203-92-53</a></p>  
+                            </div>
+                        </div>
+                        <div class="sm-item-loc mb-20">
+                            <div class="sml-icon mr-20">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="sm-content">
+                                <span>Mail us</span>
+                                <p><a href="https://themepure.net/cdn-cgi/l/email-protection#added9c2dfc8edcec2c0ddccc3d483cec2c0"><span class="__cf_email__" data-cfemail="b1c2c5dec3d4f1d2dedcc1d0dfc89fd2dedc">[email&#160;protected]</span></a></p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- location-area-end -->
+
+    <!-- cta-area-start -->
+    <section class="cta-area d-ldark-bg pt-55 pb-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="cta-item cta-item-d mb-30">
+                        <h5 class="cta-title">Follow Us</h5>
+                        <p>We make consolidating, marketing and tracking your social media website easy.</p>
+                        <div class="cta-social">
+                            <div class="social-icon">
+                                <a href="https://ru-ru.facebook.com/innopolisU/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/innopolisu" class="twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/user/InnopolisU" class="youtube"><i class="fab fa-youtube"></i></a>
+                                <a href="https://ru.linkedin.com/company/innopolis-ru" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cta-item mb-30">
+                        <h5 class="cta-title">Sign Up To Newsletter</h5>
+                        <p>Join 60.000+ subscribers and get a new discount coupon  on every Saturday.</p>
+                        <div class="subscribe__form">
+                            <form action="#">
+                                <input type="email" placeholder="Enter your email here...">
+                                <button>subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cta-item mb-30">
+                        <h5 class="cta-title">Download App</h5>
+                        <p>DukaMarket App is now available on App Store & Google Play. Get it now.</p>
+                        <div class="cta-apps">
+                            <div class="apps-store">
+                                <a href="#"><img src="{% static 'assets/img/brand/app_ios.png' %}" alt=""></a>
+                                <a href="#"><img src="{% static 'assets/img/brand/app_android.png' %}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- cta-area-end -->
+
+</main>
+
+{% endblock %}
