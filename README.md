@@ -1,2 +1,2 @@
 # InnoMarket
-Inno Market website using Django
+Inno Market E-commerce website using Django
